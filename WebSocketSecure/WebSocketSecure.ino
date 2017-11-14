@@ -115,9 +115,9 @@ void setup() {
     delay(1000);
   }
 
-  WiFiMulti.addAP("Network_Z", "1qaz2wsx!@ZX");
-  WiFiMulti.addAP("UTStarcom", "wifi1234");
-  WiFiMulti.addAP("K8Note", "1qaz2wsx!@ZX");
+  WiFiMulti.addAP("ssid1", "password1");
+  //WiFiMulti.addAP("ssid2", "password2");
+  //WiFiMulti.addAP("ssid3", "password3");
 
   //WiFi.disconnect();
   while (WiFiMulti.run() != WL_CONNECTED) {
